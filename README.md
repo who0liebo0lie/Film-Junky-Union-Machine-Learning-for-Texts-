@@ -1,8 +1,28 @@
-##Project Overview: Film Junky Union – Sentiment Classification of IMDB Movie Reviews
+## 🎬 Film Junky Union: Decoding Sentiment in Cinema One Review at a Time
 
-This project presents a scalable pipeline for binary sentiment classification using IMDb movie reviews. The objective was to develop a robust model capable of detecting negative sentiment in user-generated content with an F1 score ≥ 0.85, supporting a broader system for filtering and categorizing movie reviews in an online film discussion community.
+Every movie lover has an opinion—but what if we could teach machines to understand those opinions with nuance and accuracy? That’s the challenge we took on in the **Film Junky Union** project. Built around real-world IMDb reviews, this project dives deep into the language of film fans, using natural language processing and machine learning to classify sentiment with precision and purpose.
+
+The goal was clear: build a robust, scalable pipeline capable of identifying **negative sentiment** in reviews with an **F1 score of 0.85 or better**, supporting moderation and quality control in an online movie discussion platform.
 
 The dataset—curated by Andrew Maas et al. (ACL 2011)—contains labeled IMDb reviews annotated for sentiment polarity (pos: 0 = negative, 1 = positive) and partitioned into train/test subsets.
+
+## 🛠 Techniques Demonstrating Industry-Ready Skills
+
+| Technique                | Example from Project                                                                 |
+|--------------------------|--------------------------------------------------------------------------------------|
+| **ML for Texts**         | Sentiment classification on IMDb reviews using various feature extraction methods.  |
+| **Lemmatization**        | Preprocessing text data for normalization and token reduction.                      |
+| **Bag-of-Words**         | Used as a baseline feature extraction technique to vectorize text reviews.          |
+| **TF-IDF**               | Applied to highlight important terms while reducing noise in frequent words.        |
+| **Word Embeddings**      | Leveraged for capturing semantic similarity between words in the reviews.           |
+| **BERT**                 | Used transformer-based contextual embeddings for robust sentiment classification.   |
+| **Supervised Learning**  | Built classification models to distinguish between positive and negative reviews.   |
+| **Model Evaluation**     | Employed accuracy, precision, recall, and confusion matrix for performance tracking.|
+| **Pipeline**             | Created modular pipelines for preprocessing, training, and evaluation.              |
+| **Visualization**        | Generated bar plots, KDE plots, and time-series charts using Seaborn and Matplotlib.|
+| **Business Insights**    | Analyzed temporal trends in reviews and rating distributions for strategic insights.|
+| **Feature Engineering**  | Created metadata features like review length, release year, and review density.     |
+
 
 Key contributions include:
 
@@ -148,6 +168,14 @@ Edit
 ![Budget Trends](images_filmjunky/filmjunky_image_8.png)
 🤝 Contributing
 Have ideas for adding clustering, recommendation systems, or IMDb scraping? Fork the repo and contribute!
+
+### 🚀 Results That Speak Volumes
+
+The final BERT-based classifier exceeded expectations, delivering the target F1 score while maintaining high performance across other metrics like Accuracy and AUC. Even simpler models like LightGBM and Logistic Regression held their own, demonstrating how thoughtfully engineered features can rival more complex embeddings.
+
+### 🎯 Conclusion
+
+Film Junky Union shows how natural language processing can elevate community platforms by enabling better content moderation and user experience. From preprocessing pipelines to production-ready model evaluation, this project reflects industry-grade ML workflows with direct business impact. Whether you're moderating a film forum or powering an AI critic, these insights lay the foundation for smarter sentiment systems in media tech.
 
 🪪 License
 This project is licensed under the MIT License
